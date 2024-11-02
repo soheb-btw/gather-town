@@ -1,12 +1,5 @@
-import { Button } from "@repo/ui/button";
+import Canvas from "./components/canvas";
 
-function App() {
-
-  return (
-    <>
-      <Button appName="react-app">click me</Button>
-    </>
-  )
+export default function App() {
+  return <Canvas/>
 }
-
-export default App

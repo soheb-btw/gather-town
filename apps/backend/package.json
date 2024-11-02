@@ -7,7 +7,8 @@
     "dev": "tsc -b && node ./dist/index.js"
   },
   "dependencies": {
-    "@repo/typescript-config": "workspace:*"
+    "@repo/typescript-config": "workspace:*",
+    "express": "^4.21.1"
   },
   "keywords": [],
   "author": "",
