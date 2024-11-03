@@ -11,5 +11,3 @@ router.use('/', authRouter);
 router.use('/admin', adminRouter);
 router.use('/space', spaceRouter);
 router.use('/user', userRouter);
-
-router.get('/avatars', (req, res) => { res.send('/avatars')});
