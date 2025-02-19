@@ -27,5 +27,5 @@ export default function Canvas() {
             game.destroy(true);
         }
     }, [])
-    return <div id="canvas-container"></div>    
+    return <div id="canvas-container"></div>
 }

@@ -7,7 +7,6 @@ import jwt from 'jsonwebtoken';
 export const authRouter = Router();
 
 authRouter.post('/signup', async (req, res) => {
-    console.log(req.body);
     const parsedData = SignUpSchema.safeParse(req.body);
     if (!parsedData.success) {
         res.status(400).json({ message: 'Insufficient Data' });

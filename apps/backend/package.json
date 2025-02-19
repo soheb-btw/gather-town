@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "build": "esbuild src/index.ts --bundle --outfile=dist/index.js --platform=node",
-    "dev": "npm run build && node ./dist/index.js"
+    "dev": "pnpm run build && node ./dist/index.js"
   },
   "keywords": [],
   "author": "",
